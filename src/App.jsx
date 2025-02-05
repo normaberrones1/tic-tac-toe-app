@@ -71,7 +71,7 @@ function Board({ xIsNext, squares, onPlay, onStartOver }) {
                 <Square value={squares[8]} onSquareClick={() => handleClick(8)} />
             </div>
 
-            <button className="start-over" onClick={onStartOver}>Start Over</button>
+            <button className="start-over" onClick={onStartOver}>Restart</button>
         </>
 
     );
